@@ -3,6 +3,10 @@ from __future__ import annotations
 import os
 import json
 
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent))  # 把项目根目录加入 sys.path
+
 import streamlit as st
 
 from core.pipeline import MatchMode, default_type_dict, run_process, run_search
