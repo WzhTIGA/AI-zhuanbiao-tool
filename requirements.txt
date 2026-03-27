@@ -2,3 +2,4 @@ streamlit>=1.30
 openpyxl>=3.1
 requests>=2.31
 rarfile>=4.2
+pandas==2.3.3
