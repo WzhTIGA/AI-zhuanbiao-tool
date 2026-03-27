@@ -1,0 +1,19 @@
+# 忽略 Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 忽略虚拟环境（如果有）
+venv/
+env/
+.env/
+
+# 忽略临时数据或测试数据
+*.zip
+*.xlsx
+# 保留必要的示例文件的话，可以注释掉上面两行，或者单独放一个目录
+
+# 忽略 IDE 配置
+.vscode/
+.idea/
+.trae/
